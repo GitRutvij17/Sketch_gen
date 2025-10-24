@@ -1,0 +1,31 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Conda env and virtualenvs
+.env
+env/
+venv/
+*.conda
+*.env
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Data and models (DO NOT push large data or trained models)
+data/
+datasets/
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
